@@ -145,7 +145,7 @@ elseif(OGXM_BOARD STREQUAL "ESP32_BLUEPAD32_I2C")
     add_compile_definitions(CONFIG_OGXM_BOARD_ESP32_BLUEPAD32_I2C=1)
     set(EN_ESP32 TRUE)
     set(EN_RGB TRUE)
-    add_compile_definitions(OGXM_PICO_LED_PIN=16)
+    add_compile_definitions(RGB_PXL_PIN=16)
 
     if(OGXM_RETAIL STREQUAL "TRUE")
         message(STATUS "Retail mode enabled.")
