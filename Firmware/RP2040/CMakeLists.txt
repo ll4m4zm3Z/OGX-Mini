@@ -133,7 +133,6 @@ elseif(OGXM_BOARD STREQUAL "ADAFRUIT_FEATHER")
 
 elseif(OGXM_BOARD STREQUAL "RP2040_ZERO")
     add_compile_definitions(CONFIG_OGXM_BOARD_RP2040_ZERO=1)
-    set(EN_USB_HOST TRUE)
     set(EN_ESP32 TRUE)
     set(EN_RGB TRUE)
     add_compile_definitions(MODE_SEL_PIN=26)
